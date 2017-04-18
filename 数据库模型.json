@@ -1,0 +1,33 @@
+//users
+{
+	"_id"  //唯一对象ID
+	"URLSlug"  //唯一URL-slug
+	"userId"   //用户ID
+	"userName" //用户名
+	"password" //密码
+	"name"     //姓名
+	"headImg"  //头像
+	"question" //正在提问
+	"answer"   //正在回答
+	"data":[
+		"join"  //注册时间
+		"lastTime" //上次登入
+		["date"]   //所有登入日期
+	],
+	"commuities":["id"],  //团体ID
+	"star"    //收藏
+	"history":{
+		"qusID" //提问历史
+		"ansID" //回答历史
+	},
+	"requtation":{  //信誉度(隐藏)
+		"answer"
+		"question"
+	},
+	"balace"   //余额
+}
+
+//question  close
+{
+
+}
